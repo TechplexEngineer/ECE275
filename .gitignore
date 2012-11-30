@@ -1,0 +1,12 @@
+*.bak
+*.rpt
+*.summary
+*.jdi
+*.done
+*.qsf
+*.pof
+db/*
+*.cdf
+*.pin
+*.qpf
+incremental_db/*

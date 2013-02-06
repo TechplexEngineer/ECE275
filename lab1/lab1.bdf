@@ -34,7 +34,6 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 154 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 8 248 72 336))
 )
 (pin
 	(input)
@@ -51,11 +50,10 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 154 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 16 280 80 368))
 )
 (pin
 	(input)
-	(rect 88 200 264 216)
+	(rect 80 200 256 216)
 	(text "INPUT" (rect 133 0 164 10)(font "Arial" (font_size 6)))
 	(text "SW[17..16]" (rect 9 0 64 11)(font "Arial" ))
 	(pt 176 8)
@@ -68,7 +66,6 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 154 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 32 216 80 248))
 )
 (pin
 	(input)
@@ -85,7 +82,6 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 154 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 0 64 48 120))
 )
 (pin
 	(output)
@@ -102,7 +98,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1256 176 1320 280))
 )
 (pin
 	(output)
@@ -119,7 +114,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1256 280 1320 384))
 )
 (pin
 	(output)
@@ -136,7 +130,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1256 560 1304 664))
 )
 (pin
 	(output)
@@ -153,7 +146,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1256 456 1304 560))
 )
 (pin
 	(output)
@@ -170,7 +162,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1256 856 1304 960))
 )
 (pin
 	(output)
@@ -187,7 +178,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1256 744 1304 848))
 )
 (pin
 	(output)
@@ -204,7 +194,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1256 72 1320 176))
 )
 (pin
 	(output)
@@ -221,7 +210,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1256 -72 1320 32))
 )
 (pin
 	(output)
@@ -238,7 +226,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 472 848 544 864))
 )
 (pin
 	(output)
@@ -255,7 +242,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 472 872 544 888))
 )
 (pin
 	(output)
@@ -272,7 +258,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 472 928 544 944))
 )
 (pin
 	(output)
@@ -289,7 +274,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 472 896 544 912))
 )
 (pin
 	(output)
@@ -306,7 +290,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 472 920 544 936))
 )
 (symbol
 	(rect 856 136 1040 232)
@@ -322,8 +305,8 @@ applicable agreement for further details.
 	(port
 		(pt 184 32)
 		(output)
-		(text "leds[7..1]" (rect 0 0 48 11)(font "Arial" ))
-		(text "leds[7..1]" (rect 123 27 171 38)(font "Arial" ))
+		(text "leds[0..6]" (rect 0 0 48 11)(font "Arial" ))
+		(text "leds[0..6]" (rect 123 27 163 38)(font "Arial" ))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -344,8 +327,8 @@ applicable agreement for further details.
 	(port
 		(pt 184 32)
 		(output)
-		(text "leds[7..1]" (rect 0 0 48 11)(font "Arial" ))
-		(text "leds[7..1]" (rect 123 27 171 38)(font "Arial" ))
+		(text "leds[0..6]" (rect 0 0 48 11)(font "Arial" ))
+		(text "leds[0..6]" (rect 123 27 163 38)(font "Arial" ))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -366,8 +349,8 @@ applicable agreement for further details.
 	(port
 		(pt 184 32)
 		(output)
-		(text "leds[7..1]" (rect 0 0 48 11)(font "Arial" ))
-		(text "leds[7..1]" (rect 123 27 171 38)(font "Arial" ))
+		(text "leds[0..6]" (rect 0 0 48 11)(font "Arial" ))
+		(text "leds[0..6]" (rect 123 27 163 38)(font "Arial" ))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -388,8 +371,8 @@ applicable agreement for further details.
 	(port
 		(pt 184 32)
 		(output)
-		(text "leds[7..1]" (rect 0 0 48 11)(font "Arial" ))
-		(text "leds[7..1]" (rect 123 27 171 38)(font "Arial" ))
+		(text "leds[0..6]" (rect 0 0 48 11)(font "Arial" ))
+		(text "leds[0..6]" (rect 123 27 163 38)(font "Arial" ))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -410,8 +393,8 @@ applicable agreement for further details.
 	(port
 		(pt 184 32)
 		(output)
-		(text "leds[7..1]" (rect 0 0 48 11)(font "Arial" ))
-		(text "leds[7..1]" (rect 123 27 171 38)(font "Arial" ))
+		(text "leds[0..6]" (rect 0 0 48 11)(font "Arial" ))
+		(text "leds[0..6]" (rect 123 27 163 38)(font "Arial" ))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -432,8 +415,8 @@ applicable agreement for further details.
 	(port
 		(pt 184 32)
 		(output)
-		(text "leds[7..1]" (rect 0 0 48 11)(font "Arial" ))
-		(text "leds[7..1]" (rect 123 27 171 38)(font "Arial" ))
+		(text "leds[0..6]" (rect 0 0 48 11)(font "Arial" ))
+		(text "leds[0..6]" (rect 123 27 163 38)(font "Arial" ))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -454,8 +437,8 @@ applicable agreement for further details.
 	(port
 		(pt 184 32)
 		(output)
-		(text "leds[7..1]" (rect 0 0 48 11)(font "Arial" ))
-		(text "leds[7..1]" (rect 123 27 171 38)(font "Arial" ))
+		(text "leds[0..6]" (rect 0 0 48 11)(font "Arial" ))
+		(text "leds[0..6]" (rect 123 27 163 38)(font "Arial" ))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -476,8 +459,8 @@ applicable agreement for further details.
 	(port
 		(pt 184 32)
 		(output)
-		(text "leds[7..1]" (rect 0 0 48 11)(font "Arial" ))
-		(text "leds[7..1]" (rect 123 27 171 38)(font "Arial" ))
+		(text "leds[0..6]" (rect 0 0 48 11)(font "Arial" ))
+		(text "leds[0..6]" (rect 123 27 163 38)(font "Arial" ))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -499,21 +482,21 @@ applicable agreement for further details.
 		(pt 232 32)
 		(output)
 		(text "overflow[3..0]" (rect 0 0 69 11)(font "Arial" ))
-		(text "overflow[3..0]" (rect 153 27 222 38)(font "Arial" ))
+		(text "overflow[3..0]" (rect 153 27 211 38)(font "Arial" ))
 		(line (pt 232 32)(pt 216 32)(line_width 3))
 	)
 	(port
 		(pt 232 48)
 		(output)
 		(text "MSO[3..0]" (rect 0 0 50 11)(font "Arial" ))
-		(text "MSO[3..0]" (rect 169 43 219 54)(font "Arial" ))
+		(text "MSO[3..0]" (rect 169 43 211 54)(font "Arial" ))
 		(line (pt 232 48)(pt 216 48)(line_width 3))
 	)
 	(port
 		(pt 232 64)
 		(output)
 		(text "LSO[3..0]" (rect 0 0 47 11)(font "Arial" ))
-		(text "LSO[3..0]" (rect 172 59 219 70)(font "Arial" ))
+		(text "LSO[3..0]" (rect 172 59 211 70)(font "Arial" ))
 		(line (pt 232 64)(pt 216 64)(line_width 3))
 	)
 	(parameter
@@ -541,21 +524,21 @@ applicable agreement for further details.
 		(pt 232 32)
 		(output)
 		(text "overflow[3..0]" (rect 0 0 69 11)(font "Arial" ))
-		(text "overflow[3..0]" (rect 153 27 222 38)(font "Arial" ))
+		(text "overflow[3..0]" (rect 153 27 211 38)(font "Arial" ))
 		(line (pt 232 32)(pt 216 32)(line_width 3))
 	)
 	(port
 		(pt 232 48)
 		(output)
 		(text "MSO[3..0]" (rect 0 0 50 11)(font "Arial" ))
-		(text "MSO[3..0]" (rect 169 43 219 54)(font "Arial" ))
+		(text "MSO[3..0]" (rect 169 43 211 54)(font "Arial" ))
 		(line (pt 232 48)(pt 216 48)(line_width 3))
 	)
 	(port
 		(pt 232 64)
 		(output)
 		(text "LSO[3..0]" (rect 0 0 47 11)(font "Arial" ))
-		(text "LSO[3..0]" (rect 172 59 219 70)(font "Arial" ))
+		(text "LSO[3..0]" (rect 172 59 211 70)(font "Arial" ))
 		(line (pt 232 64)(pt 216 64)(line_width 3))
 	)
 	(parameter
@@ -567,74 +550,6 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 216 80))
 	)
 	(annotation_block (parameter)(rect 520 368 704 400))
-)
-(symbol
-	(rect 320 208 504 304)
-	(text "ALU" (rect 5 0 26 11)(font "Arial" ))
-	(text "inst16" (rect 8 80 41 91)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "ctrl[1..0]" (rect 0 0 42 11)(font "Arial" ))
-		(text "ctrl[1..0]" (rect 21 27 63 38)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "X[n-1..0]" (rect 0 0 43 11)(font "Arial" ))
-		(text "X[n-1..0]" (rect 21 43 64 54)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "Y[n-1..0]" (rect 0 0 44 11)(font "Arial" ))
-		(text "Y[n-1..0]" (rect 21 59 65 70)(font "Arial" ))
-		(line (pt 0 64)(pt 16 64)(line_width 3))
-	)
-	(port
-		(pt 184 32)
-		(output)
-		(text "out[n..0]" (rect 0 0 43 11)(font "Arial" ))
-		(text "out[n..0]" (rect 127 27 170 38)(font "Arial" ))
-		(line (pt 184 32)(pt 168 32)(line_width 3))
-	)
-	(parameter
-		"n"
-		"6"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(drawing
-		(rectangle (rect 16 16 168 80))
-	)
-	(annotation_block (parameter)(rect 320 176 504 208))
-)
-(symbol
-	(rect 616 -112 728 -16)
-	(text "vconst" (rect 5 0 39 11)(font "Arial" ))
-	(text "inst" (rect 8 80 29 91)(font "Arial" ))
-	(port
-		(pt 112 32)
-		(output)
-		(text "out[width..0]" (rect 0 0 64 11)(font "Arial" ))
-		(text "out[width..0]" (rect 31 27 95 38)(font "Arial" ))
-		(line (pt 112 32)(pt 96 32)(line_width 3))
-	)
-	(parameter
-		"width"
-		"3"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(parameter
-		"value"
-		"10"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(drawing
-		(rectangle (rect 16 16 96 80))
-	)
-	(annotation_block (parameter)(rect 616 -16 784 32))
 )
 (symbol
 	(rect 264 840 296 856)
@@ -683,21 +598,21 @@ applicable agreement for further details.
 		(pt 232 32)
 		(output)
 		(text "overflow[3..0]" (rect 0 0 69 11)(font "Arial" ))
-		(text "overflow[3..0]" (rect 153 27 222 38)(font "Arial" ))
+		(text "overflow[3..0]" (rect 153 27 211 38)(font "Arial" ))
 		(line (pt 232 32)(pt 216 32)(line_width 3))
 	)
 	(port
 		(pt 232 48)
 		(output)
 		(text "MSO[3..0]" (rect 0 0 50 11)(font "Arial" ))
-		(text "MSO[3..0]" (rect 169 43 219 54)(font "Arial" ))
+		(text "MSO[3..0]" (rect 169 43 211 54)(font "Arial" ))
 		(line (pt 232 48)(pt 216 48)(line_width 3))
 	)
 	(port
 		(pt 232 64)
 		(output)
 		(text "LSO[3..0]" (rect 0 0 47 11)(font "Arial" ))
-		(text "LSO[3..0]" (rect 172 59 219 70)(font "Arial" ))
+		(text "LSO[3..0]" (rect 172 59 211 70)(font "Arial" ))
 		(line (pt 232 64)(pt 216 64)(line_width 3))
 	)
 	(parameter
@@ -756,6 +671,87 @@ applicable agreement for further details.
 		(line (pt 16 16)(pt 24 8))
 		(line (pt 8 8)(pt 24 8))
 	)
+)
+(symbol
+	(rect 544 -112 728 -16)
+	(text "neg2seg7" (rect 5 0 55 11)(font "Arial" ))
+	(text "inst" (rect 8 80 29 91)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "neg[0..0]" (rect 0 0 44 11)(font "Arial" ))
+		(text "neg[0..0]" (rect 21 27 65 38)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 184 32)
+		(output)
+		(text "out[3..0]" (rect 0 0 42 11)(font "Arial" ))
+		(text "out[3..0]" (rect 128 27 163 38)(font "Arial" ))
+		(line (pt 184 32)(pt 168 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 168 80))
+	)
+)
+(symbol
+	(rect 320 208 520 304)
+	(text "ALU" (rect 5 0 26 11)(font "Arial" ))
+	(text "inst17" (rect 8 80 42 91)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "ctrl[1..0]" (rect 0 0 42 11)(font "Arial" ))
+		(text "ctrl[1..0]" (rect 21 27 63 38)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Y[Yn-1..0]" (rect 0 0 53 11)(font "Arial" ))
+		(text "Y[Yn-1..0]" (rect 21 43 74 54)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "X[Xn-1..0]" (rect 0 0 50 11)(font "Arial" ))
+		(text "X[Xn-1..0]" (rect 21 59 71 70)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 200 32)
+		(output)
+		(text "out[On..0]" (rect 0 0 51 11)(font "Arial" ))
+		(text "out[On..0]" (rect 136 27 179 38)(font "Arial" ))
+		(line (pt 200 32)(pt 184 32)(line_width 3))
+	)
+	(port
+		(pt 200 48)
+		(output)
+		(text "isNeg[0..0]" (rect 0 0 56 11)(font "Arial" ))
+		(text "isNeg[0..0]" (rect 132 43 179 54)(font "Arial" ))
+		(line (pt 200 48)(pt 184 48)(line_width 3))
+	)
+	(parameter
+		"Xn"
+		"5"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Yn"
+		"5"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"On"
+		"9"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 184 80))
+	)
+	(annotation_block (parameter)(rect 320 152 499 204))
 )
 (connector
 	(pt 520 720)
@@ -878,23 +874,8 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 504 240)
-	(pt 584 240)
-	(bus)
-)
-(connector
 	(pt 320 240)
 	(pt 288 240)
-	(bus)
-)
-(connector
-	(pt 288 240)
-	(pt 288 208)
-	(bus)
-)
-(connector
-	(pt 288 208)
-	(pt 264 208)
 	(bus)
 )
 (connector
@@ -954,6 +935,36 @@ applicable agreement for further details.
 (connector
 	(pt 296 856)
 	(pt 280 856)
+)
+(connector
+	(pt 288 240)
+	(pt 288 208)
+	(bus)
+)
+(connector
+	(pt 256 208)
+	(pt 288 208)
+	(bus)
+)
+(connector
+	(pt 520 240)
+	(pt 584 240)
+	(bus)
+)
+(connector
+	(pt 520 256)
+	(pt 528 256)
+	(bus)
+)
+(connector
+	(pt 528 256)
+	(pt 528 -80)
+	(bus)
+)
+(connector
+	(pt 544 -80)
+	(pt 528 -80)
+	(bus)
 )
 (junction (pt 296 272))
 (junction (pt 272 256))

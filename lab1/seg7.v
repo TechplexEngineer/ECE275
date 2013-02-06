@@ -4,7 +4,7 @@
 
 module seg7 (bcd, leds);
 	input wire [3:0] bcd;
-	output reg [1:7] leds;
+	output reg [0:6] leds;
 	
 	//   - a
 	//f | |	b
